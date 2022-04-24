@@ -1,0 +1,84 @@
+* {
+    margin:0;
+}
+
+body {
+    width: 100vw;
+    background-color: yellow;
+    background: url("https://assets.b9.com.br/wp-content/uploads/2014/05/correios3.jpg") no-repeat;
+    background-size: 1300px;
+    overflow-x: hidden;
+    margin-bottom: none;
+   
+}
+
+header {
+  width: 100vw;
+  background-color: brown;
+  height: 66px;
+  
+
+}
+ header h1 {
+ text-align: center;
+ position: relative;
+ top: 20px;
+ text-transform: uppercase;
+}
+
+label,input {
+    width: 230px;
+    position: relative;
+    left:44px;
+    top: 37px;
+   
+}
+
+button {
+    position: relative;
+    display: inline;
+    left: 22%;
+    top: 58px;
+    margin: 3px;
+}
+
+
+.container  input {
+    position: relative;
+    left: 38%;
+    top: 32px;
+    margin: 3px;
+
+}
+
+.container label {
+    position: relative;
+    display: block;
+    left: 42%;
+    top:39px;
+    margin: 3px;
+    font-weight: bold;
+    color:black;
+
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: none;
+
+
+}
+
+
+
+p {
+    margin-left: 2px;
+    margin-bottom: none;
+}
+
+i {
+    color:green;
+    margin-left: 2px;
+    margin-bottom: none;
+}

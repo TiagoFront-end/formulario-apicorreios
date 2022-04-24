@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="api.css"><script src="https://kit.fontawesome.com/072c2a0543.js" crossorigin="anonymous"></script>
+
+    <title>Consultando Cep</title>
+</head>
+<body>
+
+    <header>
+        <h1>formulário</h1>
+    </header>
+    <form action="https://www.correios.com.br/" target="blank"  method="GET">
+        <p>Fale Conosco</p>
+      <a href="https://faleconosco.correios.com.br/faleconosco/app/cadastro/suporte/tecnologico/index.php" target="blank">
+        <i class="fa-brands fa-whatsapp zap"></i>
+      </a>  
+    <label for="">Nome:</label>
+    <input type="text" placeholder="Insira  seu nome" required>
+    <label for="">Sobrenome:</label>
+    <input type="text" placeholder="Insira  seu  Sobrenome" required>
+    <label for="">E-mail:</label>
+    <input type="email" placeholder="Insira  seu e-mail" required>
+    <label for="">Senha</label>
+    <input type="password" placeholder="Insira  sua  senha" minlength="6" required>
+     
+<div class="container">
+<label>Cep</label>
+<input type="text"  name="cep" id="cep" maxlength="9" required>
+<label>Bairro</label>
+<input type="text" class="bairro" name="Bairro" id="bairro">
+<label>DDD</label>
+<input type="text" name="ddd" id="ddd">
+<label>IBGE</label>
+<input type="text" name="ibge" id="ibge">
+<label>Localidade</label>
+<input type="text" name="Localidade" id="localidade">
+<label>Logradouro</label>
+<input type="text" name="Logradouro" id="logradouro">
+<label>Siafi</label>
+<input type="text" name="siafi" id="siafi">
+<label>UF</label>
+<input type="text" name="uf" id="uf">
+</form>  
+<button type="submit">Enviar</button>
+<button type="reset">Limpar</button>
+</div>
+  
+</body>
+<script src="api.js"></script>
+</html>
